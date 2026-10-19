@@ -946,10 +946,9 @@ bool obs_module_load(void)
 		if (enabled) {
 			if (overlay_status)
 				overlay_status->setText(
-					attachOverlay()
-						? QString::fromUtf8("Fonte 1Byte Labs ativa na cena atual.")
-						: QString::fromUtf8(
-							  "Não foi possível adicionar a fonte à cena atual."));
+					attachOverlay() ? QString::fromUtf8("Fonte 1Byte Labs ativa na cena atual.")
+							: QString::fromUtf8(
+								  "Não foi possível adicionar a fonte à cena atual."));
 		} else {
 			obs_source_t *overlay_source = obs_get_source_by_name(overlay_name);
 			if (overlay_source) {
