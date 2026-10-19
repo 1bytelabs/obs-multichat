@@ -70,3 +70,7 @@ Implementar a captura do TikTok e opções adicionais de aparência para o chat.
 Este projeto inclui código e infraestrutura derivados do template oficial
 https://github.com/obsproject/obs-plugintemplate sob a licença em LICENSE.
 Não contém código do Social Stream Ninja.
+
+## Contato — 1Byte Labs
+
+[1bytelabs.com.br](https://1bytelabs.com.br) · [contato@1bytelabs.com.br](mailto:contato@1bytelabs.com.br)
