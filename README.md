@@ -1,3 +1,5 @@
+<p align="center"><img src="./assets/1bytelabs-cover.svg" alt="obs-multichat — 1Byte Labs" width="100%" /></p>
+
 # OBS Multichat
 
 Primeiro protótipo do plugin para OBS Studio, baseado no template oficial do OBS.
