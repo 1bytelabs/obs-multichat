@@ -695,10 +695,10 @@ static void frontendEvent(enum obs_frontend_event event, void *)
 	} else if (event == OBS_FRONTEND_EVENT_FINISHED_LOADING) {
 		startCapture(capture_twitch_channel, capture_kick_channel, capture_tiktok_channel);
 		if (overlay_checkbox && overlay_checkbox->isChecked() && attachOverlay() && overlay_status)
-			overlay_status->setText(QString::fromUtf8("Fonte Zosma Multichat Web ativa na cena atual."));
+			overlay_status->setText(QString::fromUtf8("Fonte 1Byte Labs Multichat Web ativa na cena atual."));
 	} else if (event == OBS_FRONTEND_EVENT_SCENE_COLLECTION_CHANGED || event == OBS_FRONTEND_EVENT_SCENE_CHANGED) {
 		if (overlay_checkbox && overlay_checkbox->isChecked() && attachOverlay() && overlay_status)
-			overlay_status->setText(QString::fromUtf8("Fonte Zosma Multichat Web ativa na cena atual."));
+			overlay_status->setText(QString::fromUtf8("Fonte 1Byte Labs Multichat Web ativa na cena atual."));
 	}
 }
 
@@ -947,7 +947,7 @@ bool obs_module_load(void)
 			if (overlay_status)
 				overlay_status->setText(
 					attachOverlay()
-						? QString::fromUtf8("Fonte Zosma Multichat Web ativa na cena atual.")
+						? QString::fromUtf8("Fonte 1Byte Labs Multichat Web ativa na cena atual.")
 						: QString::fromUtf8(
 							  "Não foi possível adicionar a fonte à cena atual."));
 		} else {
